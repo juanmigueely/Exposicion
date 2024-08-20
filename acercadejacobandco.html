@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/stylos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-black text-white">
+    <nav class="nav p-2 border-bottom">
+        <div class="container-fluid ">
+            <div class="row m-2 mt-0">
+                <div class="col-10 ">
+                    <a class="navbar-brand titulo " style="font-size: 2.5em;" href="index.html"> 1 <span><i
+                                class="bi bi-clock-history fs-4"></i></span>f 1 </a>
+                </div>
+                <div class="col-2 ">
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" class="btn text-white fs-2" data-bs-toggle="modal"
+                                data-bs-target="#modal1">
+                                <i class="bi bi-menu-button"></i>
+                            </button>
+                            <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog  modal-xl">
+                                    <div class="modal-content p-4 " style="background-color: rgba(0, 0, 0, 0.473);">
+                                        <div class="row">
+                                            <div class="col-12 d-flex justify-content-end mt-2 pt-0">
+                                                <button type="button" class="btn-close bg-white fs-4"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="col-12">
+                                                <ul class="navbar-nav text-center p-2">
+                                                    <li class="nav-item "><a class="navbar-brand text-white "
+                                                            href="#">ALTA RELOJERIA</a></li>
+                                                    <li class="nav-item "><a class="navbar-brand text-white "
+                                                            href="descubrelasasociaciones.html">DESCUBRE LAS ASOCIACIONES</a></li>
+                                                    <li class="nav-item "><a class="navbar-brand text-white "
+                                                            href="#">ACERCA DE JACOB AND CO</a></li>
+                                                    <li class="nav-item "><a class="navbar-brand text-white "
+                                                            href="cotización.html">HAZ TU COTIZACIÓN</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mt-2">
+                            <button type="button" class="btn border btn-outline-light" data-bs-toggle="modal"
+                                data-bs-target="#modal2">
+                                <span>Preguntas</span>
+                            </button>
+                            <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-xl ">
+                                    <div class="modal-content bg-black p-4">
+                                        <div class="row justify-content-between">
+                                            <div class="col-4 mb-5 ">
+                                                <h1 class="modal-title fs-1" id="exampleModalLabel">PREGUNTAS</h1>
+                                            </div>
+                                            <div class="col-1">
+                                                <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 mb-3 bg-black border-bottom pb-4">
+                                                <input type="email" class="form-control bg-black border-0"
+                                                    id="exampleFormControlInput1" placeholder="NOMBRE">
+                                            </div>
+                                            <div class="col-12 mb-3 bg-black border-bottom pb-4">
+                                                <input type="texto" class="form-control bg-black border-0"
+                                                    id="exampleFormControlInput1" placeholder="APELLIDOS">
+                                            </div>
+                                            <div class="col-12 mb-3 bg-black border-bottom pb-4">
+                                                <input type="texto" class="form-control bg-black border-0"
+                                                    id="exampleFormControlInput1" placeholder="CORREO ELECTRONICO">
+                                            </div>
+                                            <div class="col-12 mb-3 bg-black border-bottom pb-4">
+                                                <input type="texto" class="form-control bg-black border-0"
+                                                    id="exampleFormControlInput1" placeholder="NUMERO TELEFONICO">
+                                            </div>
+                                            <div class="col-12 mb-3 bg-black border-bottom pb-4">
+                                                <textarea class="form-control bg-black border-0"
+                                                    id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="INQUIETUDES"></textarea>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-end">
+                                                <button type="button" class="btn border bg-white text-black fs-5">
+                                                    <span>Enviar</span>
+                                                </button>
+                                            </div>
+                                            <div class="col text-white">
+                                                <h3 class="mb-3">CONTACTANOS</h3>
+                                                <p class="mb-0">N U M E R O T E L E F O N I C O: 310 440 1999</p>
+                                                <p>C O R R E O E L E C T R O N I C O: djdkjsadjs.@gmail.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="row justify-content-center">
+            <div class="col-11 text-center mb-5 mt-5">
+                <h1 class="fs-1">SOBRE JACOB AND CO</h1>
+            </div>
+            <div class="col-11 mb-4">
+                <h2>DECLARACIÓN DE MISIÓN</h2>
+                <P class="fs-4 ">La fuerza impulsora de Jacob & Co. es la creatividad. Desde sus inicios en el mundo de
+                    la joyería y los relojes, Jacob Arabo ha diseñado productos hermosos e innovadores. La amplitud de
+                    la oferta de Jacob & Co. demuestra la insaciable necesidad de la marca de producir piezas
+                    sorprendentes que el mundo nunca haya visto antes.</P>
+                <P class="fs-4">"Tengo que crear", dice el Sr. Arabo."Mi sueño siempre ha sido inventar cosas que no se
+                    hayan hecho antes. Para la marca, se trata de hacer realidad lo imposible". La misión de Jacob & Co.
+                    es crear piezas de relojería y joyería hermosas, dinámicas y únicas.</P>
+            </div>
+            <div class="col-11 mb-4">
+                <h2>JACOB ARABO</h2>
+                <h4>FUNDADOR Y PRESIDENTE DE JACOB & CO</h4>
+                <div class="clearfix">
+                    <img src="/img/jacobarabo.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="fotojacob">
+                    <p class="fs-4">Jacob Arabo, fundador y presidente de Jacob & Co., llegó a los EE. UU. procedente de
+                        la
+                        antigua Unión Soviética porque su familia quería una vida mejor. Su padre y su madre emigraron a
+                        los
+                        EE. UU. con Jacob y sus cuatro hermanas sin nada más que lo que podían llevar consigo, y Jacob
+                        pronto se propuso aprovechar al máximo esta oportunidad.</p>
+                    <p class="fs-4">Jacob Arabo comenzó su andadura en el mundo de la alta joyería y la relojería como
+                        aprendiz de un relojero aquel primer verano en Estados Unidos, donde forjó su fascinación por
+                        los
+                        relojes.</p>
+                    <p class="fs-4">"Mi padre me regaló un reloj cuando tenía 13 años, que mostraba dos zonas horarias y
+                        tenía un mapa del mundo bañado en oro en la esfera", recuerda el Sr. Arabo. "Tenía dos
+                        movimientos
+                        mecánicos y de ahí surgió la idea del reloj con cinco husos horarios. Durante mi aprendizaje,
+                        aprendí a desmontar un reloj, cuántas piezas tenía y me conmovió mucho lo complicado que era
+                        incluso
+                        un reloj sencillo. En ese momento me enamoré de la relojería y empecé a soñar con fabricar mi
+                        propio
+                        reloj. Mi experiencia allí me inspira y me motiva todavía hoy".</p>
+                    <p class="fs-4">Poco después, Arabo aprovechó un programa para inmigrantes y recibió formación en
+                        joyería. Encontró un trabajo de 125 dólares a la semana en una fábrica local, mintiendo sobre su
+                        edad para asegurarse el empleo. Se destacaba en el montaje de joyas, pero armar los diseños de
+                        otros
+                        no le satisfacía.</p>
+                    <p class="fs-4">"Me aburría fabricar estas joyas para el mercado masivo", explica Arabo. "Quería
+                        darle
+                        más estilo. Crecí con cinco mujeres en mi casa, mis hermanas y mi madre, y siempre estaba
+                        arreglando
+                        sus aretes, sus pulseras, y era buena con mis manos. Sabía que podía hacerlo mejor que la
+                        empresa
+                        para la que trabajaba".</p>
+                    <p class="fs-4">Así, después del trabajo, empezó a diseñar sus propias piezas y a fabricarlas,
+                        utilizando un espacio de trabajo improvisado en su dormitorio. Sus diseños triunfaron y empezó a
+                        desarrollar una clientela. Pronto empezó a ganar más dinero con su negocio secundario que con su
+                        trabajo.</p>
+                    <p class="fs-4">Poco tiempo después, con una sólida base de clientes, Jacob dejó su trabajo habitual
+                        y
+                        abrió un pequeño puesto en el bullicioso distrito de los diamantes de la ciudad de Nueva York y
+                        empezó a diseñar colecciones para marcas de joyería y clientes privados.</p>
+                    <p class="fs-4">"Siempre he tenido buen ojo", detalla Arabo. "Creo que fue por la formación en
+                        fotografía que recibí en la ex Unión Soviética. Sé cómo diseñar cosas: veo el producto terminado
+                        incluso antes de que lo dibujen".</p>
+                    <p class="fs-4">En 1986, Arabo lanzó su propia marca de lujo, Jacob & Co. Estaba forjándose un
+                        nombre,
+                        pero en el fondo de su mente, todavía pensaba en los relojes. "Al principio me concentré en la
+                        joyería, pero los relojes estaban en el fondo de mi mente", dice. "No dejaba de decirme a mí
+                        mismo:
+                        cuando sea mayor, voy a hacer relojes".</p>
+                    <p class="fs-4">Una vez que Arabo tuvo éxito con su negocio de joyería, volvió a dedicarse a los
+                        relojes. Fue a Suiza para encontrar proveedores que hicieran realidad su sueño de fabricar
+                        relojes
+                        de calidad, pero los suizos lo trataron con frialdad.</p>
+                    <p class="fs-4">"Los proveedores de Suiza me ignoraron", recuerda. "Fue muy difícil establecer una
+                        relación con cualquiera de ellos, ya que eran muy groseros y los precios eran demasiado caros,
+                        casi
+                        como un castigo por ser estadounidense. Decidí empezar con un reloj de cuarzo más sencillo que
+                        no
+                        necesitaba a los suizos. Hice el reloj Five Timezone, en el que se podía cambiar el aspecto del
+                        reloj cuando se quería con diferentes biseles y correas. Todavía uso el primero que hice. Ese
+                        reloj
+                        realmente revolucionó los relojes de moda".</p>
+                    <p class="fs-4">Una foto de la supermodelo Naomi Campbell con el reloj Five Timezone puso a su
+                        empresa
+                        en el mapa de los relojes. Mientras tanto, su negocio de joyería tuvo mucho éxito y los clientes
+                        famosos clamaban por sus diseños únicos.</p>
+                    <p class="fs-4">Después de unos años, Arabo decidió darle otra oportunidad a Suiza y esta vez
+                        encontró
+                        una mejor recepción. Junto con una firma de relojería boutique, diseñó una primicia mundial, un
+                        tourbillon vertical con una reserva de marcha excepcional de 31 días.</p>
+                    <p class="fs-4">Arabo no tenía un nombre para este espectacular reloj, así que cuando un cliente
+                        entró
+                        en la tienda Jacob & Co. y le preguntó sobre el diseño inusual, Arabo dijo: "Si me das el
+                        depósito,
+                        le pondré tu nombre". Aceptó y el nuevo reloj recibió su nombre, el Quenttin. Más tarde, el
+                        director
+                        de cine Quentin Tarantino compró un Quenttin propio y lo lució en la portada de Vogue. Con un
+                        precio
+                        de venta al público de 360.000 dólares, el Quenttin estableció las intenciones de Arabo en
+                        materia
+                        de relojería: hacer piezas que el mundo nunca haya visto.</p>
+                    <p class="fs-4">"Decidí que quería dedicarme a las complicaciones serias, inventando movimientos que
+                        nunca se habían hecho antes", detalla Arabo. "El SF24, el Epic X, los relojes con esqueleto, los
+                        tourbillon volante y baguette, y luego empecé con el Astronomia. Mi personal me dijo que no
+                        invirtiera el dinero en Luca Soprana y su estudio de diseño, Atelier 7h38. Todo el mundo estaba
+                        en
+                        contra, pero yo decidí hacerlo. Y, a diferencia de muchos otros relojeros suizos, Luca dijo que
+                        sí
+                        al Astronomia".</p>
+                    <p class="fs-4">Aunque las creaciones del Sr. Arabo son arriesgadas y exclusivas de la alta
+                        relojería,
+                        Jacob & Co. tiene cuidado de encontrar soluciones que tengan sus raíces en la relojería
+                        tradicional.
+                        Aunque las altas complicaciones a menudo ponen patas arriba la tradición, la marca sigue
+                        aplicando
+                        conceptos fundamentales para la relojería.</p>
+                    <p class="fs-4">Como joyero, el Sr. Arabo obtiene piedras raras y excepcionales con ojo de artista.
+                        Su
+                        inventiva e inspiración se fusionan con las mejores técnicas de joyería. Inspirada en hacer
+                        realidad
+                        lo imposible, la marca ha creado un nicho que es único tanto en joyería como en alta relojería.
+                    </p>
+                    <p class="fs-4">A lo largo de todo este camino, Jacob & Co. se ha asociado con los mejores de los
+                        mejores, incluidas celebridades, el fabricante de superdeportivos Bugatti y el legendario
+                        futbolista
+                        Lionel Messi.</p>
+                    <p class="fs-4">"Quiero que me recuerden como un pionero", comparte Arabo. "No soy un técnico ni un
+                        ingeniero, pero no tengo miedo de invertir y desarrollar. Soy valiente cuando se trata de hacer
+                        realidad mi visión".</p>
+                    <p class="fs-4">Jacob Arabo ha pasado de los trapos a los diamantes y los tourbillons, y no tiene
+                        intención de detenerse en el corto plazo. La marca está comprometida a superar los límites de la
+                        alta relojería y la alta joyería. Haciendo eco de las palabras del héroe estadounidense, el
+                        capitán
+                        John Paul Jones, Arabo dice, con una sonrisa: "Todavía no he comenzado a crear".</p>
+                </div>
+                
+            </div>
+            <div class="col-11 mb-4">
+                <h2>LO QUE DEFIENDEN</h2>
+                <p class="fs-4">Intrépido: Jacob & Co. no tiene miedo de crear relojes y joyas que solo existían en
+                    sueños.</p>
+                <p class="fs-4">Pionero: Jacob & Co. tiene una merecida reputación de abrir nuevos caminos en la alta
+                    relojería, creando complicaciones y combinaciones de complicaciones que son nuevas en la alta
+                    relojería, al tiempo que sigue utilizando métodos tradicionales para crear nuevos relojes radicales.
+                </p>
+                <p class="fs-4">Innovador: Probar nuevas formas de hacer las cosas, utilizar materiales diferentes y
+                    desarrollar nuevas complicaciones son parte de la razón de ser de Jacob & Co. - Jacob & Co. nunca se
+                    conformará con ser como todos los demás.</p>
+                <p class="fs-4">Creativo: Las colecciones de Jacob & Co. están repletas de ideas radicales, presentando
+                    diseños, complicaciones y combinaciones que abren nuevos caminos en la alta relojería y la alta
+                    joyería.</p>
+                <p class="fs-4">Audaz: La mayoría de las complicaciones de Jacob se creían inicialmente "imposibles",
+                    según el serio suizo. Sin embargo, Jacob & Co. está comprometido a convertir estas ideas, como el
+                    SF24, el Astronomia, el Opera, el Twin Turbo y el Twin Turbo Furious, y más, en realidad.</p>
+            </div>
+            <div class="col-11 mb-4">
+                <h2>NUESTRO OBJETIVO</h2>
+                <p class="fs-4 p-0">Hacer realidad lo imposible. Jacob Arabo vive para crear relojes y joyas que el
+                    mundo nunca ha visto. Tomemos como ejemplo la Colección Astronomia: una galaxia en la muñeca; muchos
+                    relojeros suizos vieron esta idea como "imposible". El Sr. Arabo aceptó el desafío e hizo realidad
+                    este reloj y sus muchas iteraciones... y un éxito.</p>
+                <p class="fs-4">El Sr. Arabo no se conforma con fabricar cientos de los mismos relojes y joyas. Vive
+                    para crear e innovar, trabajando siempre en la próxima idea revolucionaria y revolucionaria. Jacob &
+                    Co. es una empresa de relojes diferente, que combina el espíritu audaz y emprendedor de Estados
+                    Unidos con la alta relojería y joyería de Suiza. Con un pie en ambos mundos, el Sr. Arabo y su
+                    empresa se dedican a cambiar el status quo.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background-image: linear-gradient(black, white);" class="mt-5">
+        <div class="row justify-content-center">
+            <div class="col-11 text-black text-center " style="border-bottom: 1px solid black;">
+                <h2 style="font-size: 15em; border-bottom: 2px solid black;">1 <span><i class="bi bi-clock-history"
+                            style="font-size: 0.6em;"></i></span>f 1</h2>
+                <div class="row mt-4">
+                    <div class="col "> <a href="https://www.instagram.com/jacobandco/"><i class="bi bi-instagram fs-1"
+                                style="color: black;"></i></a></i></div>
+                    <div class="col"> <a href="https://x.com/_Jacobandco"><i class="bi bi-twitter-x fs-1"
+                                style="color: black;"></i></a></i></div>
+                    <div class="col"> <a href="https://www.tiktok.com/@jacobandco"><i class="bi bi-tiktok fs-1"
+                                style="color: black;"></i></a></i>
+                    </div>
+                    <div class="col"> <a href="https://www.youtube.com/channel/UC0RfdWI7RLwN-QDvYtRU7xA"><i
+                                class="bi bi-youtube fs-1" style="color: black;"></i></a></i></div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>© JACOB&CO</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
