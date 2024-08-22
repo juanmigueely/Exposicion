@@ -49,6 +49,13 @@ body{
 .imagenes img{
     width: 40%;
 }
+.pimposible{
+    font-size: 2em;
+}
+.ultima{
+    padding-top: 2em;
+}
+
 
 @media (max-width: 656px) {
     .h2footer{
@@ -67,3 +74,72 @@ body{
         text-align: center;
     }
 }
+@media (max-width: 380px) {
+    .h2footer{
+        font-size: 6em;
+    }
+    .h1imposible{
+        font-size: 1em;
+    }
+    .pimposible{
+        font-size: 1em;
+    }
+    .margen{
+        margin-top: 5em;
+    }
+    .margen h2{
+        font-size: 2em;
+    }
+    .margen button{
+        padding: 0;
+    }
+}
+@media (min-width: 381px) and (max-width: 450px) {
+    .margen{
+        margin-top: 6em;
+    }
+    .margen h2{
+        font-size: 2em;
+    }
+    
+}
+@media (min-width: 451px) and (max-width: 600px) {
+    .margen{
+        margin-top: 7em;
+    }
+    .margen h2{
+        font-size: 2.5em;
+    }
+    
+}
+@media (min-width: 601px) and (max-width: 800px) {
+    .margen{
+        margin-top: 10em;
+    }
+    .margen h2{
+        font-size: 3em;
+    }
+    
+}
+@media (min-width: 801px) and (max-width: 1000px) {
+    .margen{
+        margin-top: 15em;
+    }
+    .margen h2{
+        font-size: 4em;
+    }
+    
+}
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .margen{
+        margin-top: 25em;
+    }
+    .margen h2{
+        font-size: 4em;
+    }
+    
+}
+
+
+
+
